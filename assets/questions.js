@@ -6,14 +6,16 @@ let questions = [
         answer: "window.alert('message')",
         options: [
             "document.alert('message')",
-            "global.alert('message')"
+            "global.alert('message')",
+            "window.alert('message')"
         ]
     },
     {
         numb: 2,
-        question: "Which of these is an assignment operator?",
+        question: "Which of these is an assignment operator",
         answer: "/=",
         options: [
+            "/=",
             "!==",
             "<="
         ]
@@ -23,6 +25,7 @@ let questions = [
         question: "Which event handler is used to process the Click event?",
         answer: "onclick",
         options: [
+            "onclick",
             "onkeydown",
             "onmouseclick"
         ]
@@ -33,7 +36,9 @@ let questions = [
         answer: "concat()",
         options: [
             "append()",
-            "attach()"
+            "attach()",
+            "concat()"
+
         ]
     },
     {
@@ -42,7 +47,8 @@ let questions = [
         answer: "indexOf()",
         options: [
             "pos()",
+            "indexOf()",
             "position()"
         ]
     }
-];
+]
